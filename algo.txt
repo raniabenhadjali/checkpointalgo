@@ -1,0 +1,22 @@
+algorithme ch1
+var
+char: string;
+voyelle, word, carct:integer:=0;
+begin
+write('donner le phrase':=ch)
+read(ch)
+while(ch[i]<>".")
+do
+if'ch[i]="a" ch[i]="o" ch[i]="e" or ch[i]="u")
+voyelle:= voyelle+1;
+end if
+else if (ch[i]="")
+word:=word+1;
+end if 
+if (ch[i]<>.)
+carct:= carct+1;
+end if
+write("donner voyelle");
+write("donner word");
+write("donner carct");
+end.
